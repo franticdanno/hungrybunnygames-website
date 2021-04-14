@@ -1,20 +1,14 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +22,84 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  background-color: #ccffcc;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.title_contents {
+  font-size: 40px;
+}
+
+.diary-entry-profile {
+  float: left;
+}
+
+.diary-entry-text {
+  text-align: left;
+}
+
+.Diary-Entry {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  color: #000000;
+  border: 6px dashed #CCCCCC;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.Diary-Entry h2 {
+  margin: 10px;
+  padding: 0px;
+}
+
+.DiaryEntryDate {
+  color: #333333;
+  font-size: 10pt;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  border: 6px solid #FFFFFF;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #00b300;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.showcase {
+  float: left;
+  border: 1px dashed;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
 }
